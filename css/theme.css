@@ -1,0 +1,89 @@
+/* --------- --------- --------- --------- --------- --------- --------- 
+ * 
+ * --------- --------- --------- --------- --------- --------- --------- */
+html, body {
+  color: #ffffff;
+  box-sizing: border-box;
+
+  font-family: "Open Sans";
+  font-size: 16px;
+  overflow: hidden;
+}
+#header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60px;
+
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "Raleway";
+  font-size: 40px;
+}
+#content {
+  position: absolute;
+  padding: 10px;
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  bottom: 30px;
+
+  overflow: hidden;
+  overflow-y: auto;
+}
+#footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 30px;
+}
+#stoplight {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  width: 80px;
+}
+.light {
+  float: left;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.5);
+}
+
+/* --------- --------- --------- --------- --------- --------- --------- 
+ * Colors
+ * --------- --------- --------- --------- --------- --------- --------- */
+/* Black and white */
+.black { background-color: #000000; }
+.lightblack { background-color: #111111;}
+.darkgrey { background-color: #333333; }
+.grey { background-color: #8c8c8c; }
+.lightgrey { background-color: #bdbdbd; }
+.white { background-color: #ffffff; }
+.offwhite { background-color: #faf3e2; }
+
+/* Blue */
+.darkblue { background-color: #004074; }
+.blue { background-color: #0062b4; }
+.lightblue { background-color: #44abff; }
+
+/* Brown */
+.brown { background-color: #884400;}
+.lightbrown { background-color: #da9355;}
+
+/* Green */
+.green { background-color: #2eba00; }
+.lightgreen { background-color: #aeed22; }
+
+/* Yellow */
+.yellow { background-color: #ffff00; }
+.lightyellow { background-color: #ffff7b; }
+
+/* Red */
+.red { background-color: #ff0000; }
+.lightred { background-color: #ff9595; }
+
